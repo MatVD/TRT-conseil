@@ -3,9 +3,9 @@ import React from "react";
 export default function () {
     return (
         <footer
-            className="bg-sky-800 w-full fixed bottom-0 text-white">
+            className="bg-sky-800 w-full text-white">
             <div className="lg:container mx-auto flex w-full justify-between items-center h-40">
-                <p className="hidden text-3xl md:block">TRT Conseil</p>
+                <p className="hidden text-3xl md:block ml-4">TRT Conseil</p>
                 <div className="flex">
                     <ul className="flex-col mx-5">
                         <li className="list-none">
@@ -32,9 +32,9 @@ export default function () {
                 </div>
                 <button type="button" className="hidden shadow-none p-2 border-2 rounded-2xl md:block">Nous contacter</button>
                 <div className="flex mr-4">
-                    <i className="fa-brands fa-twitter fa-xl"></i>
-                    <i className="fa-brands fa-facebook fa-xl ml-2"></i>
-                    <i className="fa-brands fa-linkedin fa-xl ml-2"></i>
+                    <i className="fa-brands fa-twitter fa-2xl"></i>
+                    <i className="fa-brands fa-facebook fa-2xl ml-2"></i>
+                    <i className="fa-brands fa-linkedin fa-2xl ml-2"></i>
                 </div>
             </div>
 

@@ -3,18 +3,17 @@
 {% block title %}TRT Conseil | Accueil{% endblock %}
 
 {% block body %}
-    <section class="lg:container mx-auto h-full">
+    <section class="lg:container mx-auto h-full mt-16">
         <div class="flex flex-col md:flex-row self-center justify-center gap-20">
-            <div class="flex justify-center">
+            <div class="flex justify-center w-110">
                 <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                     <div class="flex-col p-6 items-center self-center text-center">
                         <h3 class="text-gray-900 text-xl font-medium">318560</h3>
-                        <p class="text-gray-700 text-base">profils publiés</p>
                     </div>
                     <div class="flex justify-center">
                         <div class="block rounded-lg bg-white max-w-sm">
                             <div class="p-6">
-                                <h5 class="text-gray-900 text-xl font-medium mb-2">Venez découvrir nos profils</h5>
+                                <h5 class="text-gray-900 text-xl font-medium mb-2">C'est le nombre de profils...</h5>
                                 <p class="text-gray-700 text-base mb-4">
                                     Poster une annonce et recevez de nombreuse candidatures. Toutes vérifiez par nos
                                     consultants !
@@ -54,5 +53,58 @@
                 </div>
             </div>
         </div>
+
+        <h2 class="text-center text-2xl mt-20">Nos consultants sont à vos côtés ...</h2>
+
+        <div class="flex flex-col md:flex-row self-center justify-center gap-20 mt-10 mb-28">
+            <div class="flex justify-center">
+                <div class="block rounded-lg shadow-lg bg-white max-w-sm text-center">
+                    <div class="p-6">
+                        <i class="fa-solid fa-calendar-day fa-6x"></i>
+                        <h5 class="text-gray-900 text-xl font-medium mt-6 w-44">Webinaire</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="block rounded-lg shadow-lg bg-white max-w-sm text-center">
+                    <div class="p-6">
+
+                        <h5 class="text-gray-900 text-xl font-medium w-44">Créer vos offres</h5>
+                        <i class="fa-solid fa-rectangle-list fa-6x mt-2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+                    <div class="flex-col p-6 items-center self-center text-center">
+                        <h3 class="text-gray-900 text-xl font-medium">318560</h3>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="block rounded-lg bg-white max-w-sm">
+                            <div class="p-6">
+                                <h5 class="text-gray-900 text-xl font-medium mb-2">Venez découvrir nos profils</h5>
+                                <p class="text-gray-700 text-base mb-4">
+                                    Poster une annonce et recevez de nombreuse candidatures. Toutes vérifiez par nos
+                                    consultants !
+                                </p>
+                                <button type="button"
+                                        class="px-6 py-2
+                            bg-sky-800
+                            text-white
+                            font-medium
+                            text-xs leading-tight uppercase
+                            rounded shadow-md
+                            hover:shadow-lg hover:scale-110
+                            focus:shadow-lg focus:outline-none focus:ring-0
+                            active:shadow-lg
+                            transition duration-150 ease-in-out">Go
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 {% endblock %}
