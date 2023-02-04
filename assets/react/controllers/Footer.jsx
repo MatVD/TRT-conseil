@@ -25,7 +25,7 @@ export default function () {
                         <li>
                             <a href="#" className="text-white no-underline text-black">Nous rejoindre</a>
                         </li>
-                        <li>
+                        <li className="text-white">
                             <a href="#" className="text-white no-underline text-black">Confidentialité</a>
                         </li>
                     </ul>
