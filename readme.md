@@ -10,7 +10,8 @@ _______
 - Ouvrir le terminal de son IDE préféré et installer les différents packages avec les commandes suivantes:
   - Composer install 
   - Yarn ou npm install
-  - et Yarn ou npm run build
+  - Yarn ou npm run build
+  - symfony server:start ou symfony serve -d
 
 
     Déployement en ligne
